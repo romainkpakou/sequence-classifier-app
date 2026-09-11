@@ -1,0 +1,9 @@
+streamlit==1.38.0
+scikit-learn==1.5.1
+pandas==2.2.2
+numpy==1.26.4
+sgt==2.0.3
+plotly==5.23.0
+biopython==1.84
+logomaker==0.8
+matplotlib==3.9.1
