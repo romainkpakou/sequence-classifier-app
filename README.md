@@ -74,6 +74,13 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+### Voir un résultat sans rien installer
+
+L'application est interactive — pour un aperçu statique des résultats sans la lancer,
+voir [`results/report.html`](https://htmlpreview.github.io/?https://github.com/romainkpakou/sequence-classifier-app/blob/main/results/report.html)
+(projection t-SNE, table de clustering, logos de séquence sur le jeu d'exemple). Régénérable
+via `python3 scripts/generate_report.py`.
+
 L'application propose par défaut le jeu d'exemple (`data/example_sequences.fasta`, 100
 séquences de globines), ou l'upload d'un FASTA personnalisé.
 
